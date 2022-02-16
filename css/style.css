@@ -1,8 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    height: 100px;
+    background-color: black;
+}
 li {
     display: inline-block;
+    height: 30px;
+    width: 60px;
+    float: right;
+    text-align: center;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 iframe {
     height: 250px;
     width: 400px;
+}
+
+audio {
+    width: 200px;
+}
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    clear: left;
 }
