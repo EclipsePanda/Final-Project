@@ -1,30 +1,33 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.nav-bar, h1, h2 {
+.nav-bar, h1, h2{
     font-family: 'Quintessential', cursive;
 }
-p {
+header{
+    position: sticky;
+    top: 0px;
+}
+p{
     font-family: 'Nunito', sans-serif;
 }
-body {
+body{
     background-image: url(https://cdn.discordapp.com/attachments/764207629047300136/943698085895368704/IMG_0036.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
-a {
+a{
     text-decoration: none;
     color: red;
 }
-nav {
+nav{
     height: 80px;
     background-color: black;
     
 }
-.nav-bar {
-    display: inline-block;
+.nav-bar{
     height: 30px;
     width: 100px;
     float: right;
@@ -34,21 +37,22 @@ nav {
     font-size: 30px;
 }
 
-iframe {
+iframe{
     height: 250px;
     width: 400px;
 }
 
-audio {
+audio{
     width: 200px;
 }
-img {
+
+img{
     height: 80px;
     width: 80px;
     float: left;
     clear: left;
 }
-.hero-text {
+.hero-text{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -56,12 +60,49 @@ img {
     width: 50%;
     margin: 50px 25%;
 }
-footer {
+footer{
     position: absolute;
     bottom: 0px;
     background-color: black;
     width: 100%;
 }
-.brands {
-    text-align: left;
+
+.social-buttons{
+    width: 50px;
+    float: right;
+}
+
+.footer-nav-link{
+    display: inline-block
+}
+
+.footer-container {
+    float: left;
+}
+
+.fa-brands{
+    width: 50px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+form {
+    background-color: black;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 20px;
+    color: red;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+button{
+    margin: 10px;
+    cursor: grab;
+    color: blue;
 }
