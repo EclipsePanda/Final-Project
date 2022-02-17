@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.nav-bar, h1, h2 {
+    font-family: 'Quintessential', cursive;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+}
 body {
     background-image: url(https://cdn.discordapp.com/attachments/764207629047300136/943698085895368704/IMG_0036.webp);
     background-repeat: no-repeat;
@@ -53,4 +59,9 @@ img {
 footer {
     position: absolute;
     bottom: 0px;
+    background-color: black;
+    width: 100%;
+}
+.brands {
+    text-align: left;
 }
