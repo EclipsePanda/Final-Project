@@ -17,6 +17,7 @@ body{
     background-image: url(https://cdn.discordapp.com/attachments/764207629047300136/943698085895368704/IMG_0036.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 a{
     text-decoration: none;
@@ -25,7 +26,6 @@ a{
 nav{
     height: 80px;
     background-color: black;
-    
 }
 .nav-bar{
     height: 30px;
@@ -36,16 +36,14 @@ nav{
     font-weight: bold;
     font-size: 30px;
 }
-
 iframe{
-    height: 250px;
-    width: 400px;
+    display: inline;
+    height: 200px;
+    width: 100%;
 }
-
 audio{
     width: 200px;
 }
-
 img{
     height: 80px;
     width: 80px;
@@ -61,31 +59,27 @@ img{
     margin: 50px 25%;
 }
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0px;
     background-color: black;
     width: 100%;
+    margin-top: -60px;
+    height: 60px;
 }
-
 .social-buttons{
     width: 50px;
     float: right;
 }
-
 .footer-nav-link{
     display: inline-block
 }
-
 .footer-container {
     float: left;
 }
-
 .fa-brands{
     width: 50px;
     text-align: center;
-    /* background-color: blue; */
 }
-
 form {
     background-color: black;
     width: 500px;
@@ -95,14 +89,67 @@ form {
     padding: 20px;
     color: red;
 }
-
 input{
     display: block;
     width: 100%;
 }
-
 button{
     margin: 10px;
     cursor: grab;
-    color: blue;
+}
+.about-box-1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+.about-box-2{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    float: right;
+}
+.about-box-3{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    color: red;
+    background-color: black;
+    text-align: center;
+    clear: right;
+}
+main {
+    overflow: auto;
+    padding-bottom: 60px;
+}
+.contact-footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+}
+.email-link{
+    float: right;
+    color: red;
+    clear: right;
+    margin: 0px 5px;
+}
+.lego-pic{
+    height: 80%;
+    width: 80%;
+    margin: 0px 35px;
 }
