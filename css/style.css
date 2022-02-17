@@ -3,22 +3,29 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/764207629047300136/943698085895368704/IMG_0036.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 a {
     text-decoration: none;
+    color: red;
 }
 nav {
-    height: 100px;
+    height: 80px;
     background-color: black;
+    
 }
-li {
+.nav-bar {
     display: inline-block;
     height: 30px;
-    width: 60px;
+    width: 100px;
     float: right;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 iframe {
@@ -30,8 +37,20 @@ audio {
     width: 200px;
 }
 img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     float: left;
     clear: left;
+}
+.hero-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    width: 50%;
+    margin: 50px 25%;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
 }
