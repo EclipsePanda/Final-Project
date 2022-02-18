@@ -94,7 +94,7 @@ input{
     width: 100%;
 }
 button{
-    margin: 10px;
+    margin: 10px auto;
     cursor: grab;
 }
 .about-box-1{
